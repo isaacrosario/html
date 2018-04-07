@@ -1,0 +1,74 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*----- Estilos Generales -----*/
+
+
+a {text-decoration:none; color:#fff;}
+a:hover{text-decoration:underline;}
+
+
+/* ---- HEADER ---- */
+header {
+	width:100%;
+	float:left;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e0e0e0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e0e0e0 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e0e0e0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+box-shadow:0px 3px 5px #000;
+	-moz-box-shadow:0px 3px 5px #000;
+	-webkit-box-shadow:0px 3px 5px #000;
+}
+
+#subheader {
+	width:960px;
+	margin:auto;
+}
+
+#logotipo {
+	float:left;
+	width:300px;
+	padding:10px 0px;	
+}
+
+#logotipo a {
+	font-family:sourcesans-light;
+	font-size:50px;
+	color:#000;
+}
+
+#logotipo a:hover {text-decoration:none;}
+
+header #subheader nav {
+	float:left;
+	width:660px;
+	padding:30px 0px;
+	text-align: right;
+}
+
+header #subheader nav ul li {
+	display:inline;
+	font-family:sourcesans;
+	margin-left:15px;
+}
+
+header #subheader nav ul li a {
+	color:#000;
+	font-size:18px;
+	padding:10px;
+	border-radius:2px;
+		-moz-border-radius:2px;
+		-webkit-border-radius:2px;
+}
+
+header #subheader nav ul li a:hover {
+	color:#fff;
+	background:#1798af;
+	text-decoration:none;
+}
+
