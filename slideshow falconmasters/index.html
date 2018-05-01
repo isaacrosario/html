@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="shortcut icon" type="image/x-icon" href="icon/o.png" />
+
+<head>
+	<meta charset="UTF-8">
+	<title>SlideShow</title>
+</head>
+<body>
+	
+
+<div class="main">
+		<div class="slides">
+			<img src="img/1.jpg" alt="">
+			<img src="img/2.jpg" alt="">
+			<img src="img/3.jpg" alt="">
+			
+		</div>
+	</div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+<script >
+	$(function(){
+      $(".slides").slidesjs({
+     
+play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+
+      });
+    });
+
+</script>
+
+</body>
+</html>
